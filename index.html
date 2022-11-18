@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <title>Loading..........</title>
   </head>
 
   <body>
-    <audio autoplay="autopaly">
-      <source src="somemusic" type="audio/mp3" />
+    <audio hidden autoplay> 
+      <source src="/music.mp3" type="audio/mpeg">
     </audio>
     <!-- <div> -->
     <div class="container2">
@@ -26,7 +27,11 @@
       <h3 class="STARDUST3" id="couple_none">L O V E <strong>❤</strong> Y O U</h3>
       <img class="img" src="shy.jpg" alt="Some fantastic image" />
       <canvas id="pinkboard"></canvas>
+      <audio hidden autoplay> 
+        <source src="music.mp3" type="audio/mpeg">
+      </audio>
     </div>
+    
     <script>
       let couple_name = prompt("Nhập tên ngươi í");
       if(couple_name!=="") {
@@ -36,6 +41,7 @@
         document.getElementById("couple_none").innerHTML = '<b>Sao ko điền ? load lại để điền đi.</b>';
       }
     </script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/particle.js"></script>
