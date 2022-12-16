@@ -9,6 +9,13 @@
 #couple_name {
   margin-top:30px;
 }
+
+#audio{
+  position: fixed;
+  bottom: 0px;
+  margin:auto;
+  z-index: 100;
+}
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   font-family: "Montserrat";
   font-size: 12px;
